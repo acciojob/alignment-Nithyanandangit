@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .header {
+            font-weight: bold;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .box-table {
+            height: 80px;
+        }
+
+        .banner {
+            width: 90%;
+            margin: 20px auto;
+            border-top: 10px solid green;
+            border-bottom: 10px solid blue;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner img {
+            width: 180px;
+            height: 90px;
+            object-fit: cover;
+        }
